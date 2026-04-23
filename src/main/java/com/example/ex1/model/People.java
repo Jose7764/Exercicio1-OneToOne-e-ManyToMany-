@@ -29,5 +29,10 @@ public class People {
         this.name = name;
     }
 
+    public People(String name, Document document) {
+        this.name = name;
+        this.document = document;
+    }
+
     
 }
